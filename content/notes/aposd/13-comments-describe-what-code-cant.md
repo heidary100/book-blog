@@ -109,5 +109,4 @@ Ousterhout resolves the five IndexLookup questions: message formats, server-side
 
 ## My takeaways
 
-<!-- Fill in as you re-read and apply the chapter. -->
--
+*Fill this in as you re-read and apply the chapter.*

@@ -67,5 +67,4 @@ Well-chosen names make code obvious: a first-time reader's unreflective guess ab
 
 ## My takeaways
 
-<!-- Fill in as you re-read and apply the chapter. -->
--
+*Fill this in as you re-read and apply the chapter.*

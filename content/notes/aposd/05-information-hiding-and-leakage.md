@@ -89,5 +89,4 @@ Information hiding and deep modules are two views of the same property: a module
 
 ## My takeaways
 
-<!-- Fill in as you re-read and apply the chapter. -->
--
+*Fill this in as you re-read and apply the chapter.*

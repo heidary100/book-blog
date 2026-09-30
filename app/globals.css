@@ -79,6 +79,12 @@ body {
   font-size: 1.05rem;
 }
 
+/* the typography plugin decorates inline code with literal backticks — too noisy here */
+.prose-book :where(code):not(:where(pre code))::before,
+.prose-book :where(code):not(:where(pre code))::after {
+  content: none;
+}
+
 .prose-book h2,
 .prose-book h3,
 .prose-book h4 {

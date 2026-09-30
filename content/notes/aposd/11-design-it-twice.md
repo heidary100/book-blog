@@ -51,5 +51,4 @@ Design-it-twice doesn't just improve the design at hand; it improves the designe
 
 ## My takeaways
 
-<!-- Fill in as you re-read and apply the chapter. -->
--
+*Fill this in as you re-read and apply the chapter.*

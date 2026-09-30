@@ -49,5 +49,4 @@ Their purposes also differ. Comments exist to make reading the code unnecessary 
 
 ## My takeaways
 
-<!-- Fill in as you re-read and apply the chapter. -->
--
+*Fill this in as you re-read and apply the chapter.*

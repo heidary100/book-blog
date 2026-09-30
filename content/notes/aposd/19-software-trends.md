@@ -74,5 +74,4 @@ The general rule to take away: whenever you meet a proposed new development para
 - **System (integration) test**: runs the whole application under production-like conditions to verify parts work together; usually written by a separate QA team.
 
 ## My takeaways
-<!-- Fill in as you re-read and apply the chapter. -->
--
+*Fill this in as you re-read and apply the chapter.*

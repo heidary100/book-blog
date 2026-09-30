@@ -54,5 +54,4 @@ Consistency is the investment mindset once more. The costs are real: deciding co
 
 ## My takeaways
 
-<!-- Fill in as you re-read and apply the chapter. -->
--
+*Fill this in as you re-read and apply the chapter.*

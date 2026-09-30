@@ -36,5 +36,4 @@ Two final cautions. Apply the ideas with **moderation and discretion**: every ru
 
 ## My takeaways
 
-<!-- Fill in as you re-read and apply the chapter. -->
--
+*Fill this in as you re-read and apply the chapter.*

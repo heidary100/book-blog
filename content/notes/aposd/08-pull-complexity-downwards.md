@@ -39,5 +39,4 @@ When developing a module, look for opportunities to take a little extra sufferin
 
 ## My takeaways
 
-<!-- Fill in as you re-read and apply the chapter. -->
--
+*Fill this in as you re-read and apply the chapter.*

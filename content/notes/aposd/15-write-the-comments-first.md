@@ -61,5 +61,4 @@ A simple challenge: if you've never written comments first, try it, stick with i
 
 ## My takeaways
 
-<!-- Fill in as you re-read and apply the chapter. -->
--
+*Fill this in as you re-read and apply the chapter.*

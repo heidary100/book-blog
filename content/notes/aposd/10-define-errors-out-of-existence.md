@@ -78,5 +78,4 @@ Special cases of any form make code harder to understand and buggier; exceptions
 
 ## My takeaways
 
-<!-- Fill in as you re-read and apply the chapter. -->
--
+*Fill this in as you re-read and apply the chapter.*

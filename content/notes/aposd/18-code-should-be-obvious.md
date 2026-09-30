@@ -54,5 +54,4 @@ Reframe obviousness in terms of *information*: nonobvious code means the reader 
 - **Obvious (code)**: code that a reader can understand quickly, without much thought, where their first guesses about behavior and meaning are correct.
 
 ## My takeaways
-<!-- Fill in as you re-read and apply the chapter. -->
--
+*Fill this in as you re-read and apply the chapter.*

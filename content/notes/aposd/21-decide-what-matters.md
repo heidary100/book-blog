@@ -66,5 +66,4 @@ The chapter closes by naming the skill itself: **"good taste"** is the ability t
 - **Good taste**: the ability to distinguish what is important from what isn't.
 
 ## My takeaways
-<!-- Fill in as you re-read and apply the chapter. -->
--
+*Fill this in as you re-read and apply the chapter.*

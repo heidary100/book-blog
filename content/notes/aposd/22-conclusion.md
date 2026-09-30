@@ -31,5 +31,4 @@ The book's argument, assembled end to end:
 - **The payoff** (this chapter): design investments pay for themselves quickly in reuse, faster future changes, and compounding skill. Good designers spend more of their time designing — which is the fun part — while poor designers spend theirs chasing bugs in complicated, brittle code.
 
 ## My takeaways
-<!-- Fill in as you re-read and apply the chapter. -->
--
+*Fill this in as you re-read and apply the chapter.*

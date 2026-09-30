@@ -95,5 +95,4 @@ Unnecessary specialization — special-purpose classes and methods, or special c
 
 ## My takeaways
 
-<!-- Fill in as you re-read and apply the chapter. -->
--
+*Fill this in as you re-read and apply the chapter.*

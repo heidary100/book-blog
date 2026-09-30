@@ -51,5 +51,4 @@ Closing observation: higher-level, more abstract comments are the easiest to mai
 
 ## My takeaways
 
-<!-- Fill in as you re-read and apply the chapter. -->
--
+*Fill this in as you re-read and apply the chapter.*

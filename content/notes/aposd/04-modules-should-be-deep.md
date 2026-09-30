@@ -91,5 +91,4 @@ Separating interface from implementation hides implementation complexity; users 
 
 ## My takeaways
 
-<!-- Fill in as you re-read and apply the chapter. -->
--
+*Fill this in as you re-read and apply the chapter.*

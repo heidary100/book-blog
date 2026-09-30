@@ -59,5 +59,4 @@ Dependencies and obscurities accumulate into the three symptoms; as complexity r
 
 ## My takeaways
 
-<!-- Fill in as you re-read and apply the chapter. -->
--
+*Fill this in as you re-read and apply the chapter.*

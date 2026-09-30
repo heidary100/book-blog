@@ -76,5 +76,4 @@ Base every split-or-join decision on complexity: choose the structure that gives
 
 ## My takeaways
 
-<!-- Fill in as you re-read and apply the chapter. -->
--
+*Fill this in as you re-read and apply the chapter.*

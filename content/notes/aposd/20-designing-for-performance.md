@@ -85,5 +85,4 @@ Clean design and high performance are compatible. The Buffer rewrite gained 2x w
 - **Fundamental fix**: a design-level change that eliminates the cost outright (a cache, a better algorithm, kernel bypass) as opposed to tuning existing code.
 
 ## My takeaways
-<!-- Fill in as you re-read and apply the chapter. -->
--
+*Fill this in as you re-read and apply the chapter.*
