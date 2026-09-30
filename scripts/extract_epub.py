@@ -81,17 +81,32 @@ def main(epub_path: str, out_dir: str) -> None:
     manifest: dict[str, dict] = {}
     spine: list[str] = []
     cover_id: str | None = None
+    cover_fallback: str | None = None
     for el in opf_root.iter():
         tag = local_name(el.tag)
         if tag == "item":
             manifest[el.attrib["id"]] = {
                 "href": find_attr(el, "href") or el.attrib["href"],
                 "media-type": el.attrib.get("media-type", ""),
+                "properties": el.attrib.get("properties", ""),
             }
+            # EPUB3 cover-image property, or an image item named/id'd "cover"
+            props = el.attrib.get("properties", "")
+            if "cover-image" in props:
+                cover_id = el.attrib["id"]
+            elif (
+                cover_id is None
+                and el.attrib.get("media-type", "").startswith("image/")
+                and "cover" in el.attrib["id"].lower() + el.attrib["href"].lower()
+            ):
+                cover_fallback = el.attrib["id"]
         elif tag == "itemref":
             spine.append(el.attrib["idref"])
         elif tag == "meta" and el.attrib.get("name") == "cover":
             cover_id = el.attrib.get("content")
+
+    if cover_id is None:
+        cover_id = cover_fallback
 
     opf_dir = Path(opf_path).parent
 
@@ -139,12 +154,17 @@ def main(epub_path: str, out_dir: str) -> None:
 
     (out / "toc.json").write_text(json.dumps(toc, indent=2))
 
-    # cover image
-    if cover_id and cover_id in manifest:
-        cover_href = str(opf_dir / manifest[cover_id]["href"])
+    # cover image (the EPUB2 meta may hold a manifest id or a direct href)
+    if cover_id:
+        cover_href = manifest[cover_id]["href"] if cover_id in manifest else cover_id
         ext = Path(cover_href).suffix or ".jpg"
-        (out / f"cover{ext}").write_bytes(z.read(cover_href))
-        print(f"cover -> cover{ext}")
+        for candidate in (opf_dir / cover_href, Path(cover_href)):
+            try:
+                (out / f"cover{ext}").write_bytes(z.read(str(candidate)))
+                print(f"cover -> cover{ext}")
+                break
+            except KeyError:
+                continue
 
     print(f"{len(toc)} documents -> {out}/ (toc.json, pages/)")
 
