@@ -3,7 +3,7 @@ title: "Compute as a Service"
 book: swe-at-google
 chapter: 25
 date: 2026-10-01
-summary: "CaaS is 'just give me hardware to run my stuff' made scalable: Borg-style scheduling, containers for isolation and abstraction, cattle-not-pets software, one shared compute pool, and a thoughtful abstraction-level trade-off."
+summary: "‘Just give me hardware to run my stuff,’ made scalable: Borg-style scheduling, containers, one shared compute pool — and software written as cattle to benefit."
 tags: [tools, performance]
 ---
 

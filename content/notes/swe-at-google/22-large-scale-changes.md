@@ -3,7 +3,7 @@ title: "Large-Scale Changes"
 book: swe-at-google
 chapter: 22
 date: 2026-10-01
-summary: "LSCs are logically related edits too big to commit atomically; with tooling (Kythe, Rosie, TAP), cultural buy-in, and sharding, Google routinely changes millions of references — making decisions like API names reversible."
+summary: "LSCs are related edits too big to commit atomically; tooling (Kythe, Rosie, TAP), sharding, and cultural buy-in make million-reference migrations routine at Google."
 tags: [automation, tools]
 ---
 

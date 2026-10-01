@@ -3,7 +3,7 @@ title: "Dependency Management"
 book: swe-at-google
 chapter: 21
 date: 2026-10-01
-summary: "Managing networks of dependencies we don't control is among the hardest problems in software engineering; SemVer is a lossy estimate that scales poorly, and evidence (tests/CI) beats self-attested version numbers."
+summary: "Diamond dependencies and Hyrum's Law break dependency networks; SemVer is a lossy estimate that SAT-solvers treat as absolute, while tests and CI provide real evidence."
 tags: [tools, design-process]
 ---
 

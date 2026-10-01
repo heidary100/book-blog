@@ -3,7 +3,7 @@ title: "Continuous Integration"
 book: swe-at-google
 chapter: 23
 date: 2026-10-01
-summary: "CI is the continuous assembling and testing of an entire evolving ecosystem: fast reliable tests on presubmit, everything else post-submit, hermetic suites for stability, and accessible actionable feedback — all day, at Google scale."
+summary: "CI decides what tests to run when: fast, reliable ones on presubmit; larger, less deterministic ones post-submit; hermetic suites and actionable feedback throughout."
 tags: [testing, automation]
 ---
 
