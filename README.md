@@ -88,7 +88,15 @@ with the same tag across all books. Tags are lowercase-kebab-case
 
 ## Deployment
 
-`npm run build` produces a fully static site (all pages prerendered), so it
-works on any Node host or static-capable platform. Note that `/keystatic` only
-works locally (Keystatic local storage mode) — that's intentional: content is
-edited at your desk or in the repo, not in production.
+The site is deployed on Vercel (`npx vercel --prod`). `npm run build` produces
+a static site with all pages prerendered, so it works on any Node host too.
+
+- `/keystatic` (and its API) are disabled in production builds — local storage
+  mode needs a writable filesystem, so in-browser editing is a local-workflow
+  feature only. Content edits happen in the repo; `npx vercel --prod` ships them.
+- The app is an **installable PWA**: after the first visit a service worker
+  (`public/sw.js`) warms the whole library into the cache, so notes read
+  offline; navigations are network-first with a cached fallback. Bump the
+  `VERSION` constant in `sw.js` to invalidate old caches after changes.
+- Icons are generated from `scripts/generate-icons.mjs` (sharp): edit the
+  design there and re-run `node scripts/generate-icons.mjs`.

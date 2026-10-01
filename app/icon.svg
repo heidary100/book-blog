@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="12" fill="#161412"/>
-  <text x="32" y="45" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="38" fill="#e8a04c" text-anchor="middle">m</text>
+  <rect width="64" height="64" rx="13" fill="#161412"/>
+  <rect x="12" y="16.5" width="1.6" height="31" rx="0.8" fill="#8a6d3f"/>
+  <text x="18.5" y="42.5" font-family="DejaVu Serif, Georgia, 'Times New Roman', serif"
+        font-style="italic" font-weight="600" font-size="36" fill="#e8a04c">m</text>
 </svg>
