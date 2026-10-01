@@ -88,12 +88,21 @@ with the same tag across all books. Tags are lowercase-kebab-case
 
 ## Deployment
 
-The site is deployed on Vercel (`npx vercel --prod`). `npm run build` produces
-a static site with all pages prerendered, so it works on any Node host too.
+The site is a standard Next.js app, so Vercel needs zero configuration.
+Two ways to publish:
+
+```bash
+npx vercel login      # once
+npx vercel --prod     # deploy the current directory
+```
+
+Or push the repo to GitHub and "Import Project" on vercel.com — every push
+then auto-deploys. `npm run build` prerenders everything statically, so any
+Node host works too.
 
 - `/keystatic` (and its API) are disabled in production builds — local storage
   mode needs a writable filesystem, so in-browser editing is a local-workflow
-  feature only. Content edits happen in the repo; `npx vercel --prod` ships them.
+  feature only. Content edits happen in the repo and ship with the next deploy.
 - The app is an **installable PWA**: after the first visit a service worker
   (`public/sw.js`) warms the whole library into the cache, so notes read
   offline; navigations are network-first with a cached fallback. Bump the
